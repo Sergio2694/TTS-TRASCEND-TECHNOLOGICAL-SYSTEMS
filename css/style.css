@@ -71,6 +71,12 @@ label {
     padding-bottom: 25px;
 }
 
+.imgRedonda {
+    width:300px;
+    height:300px;
+    border-radius:160px;
+    border:10px solid #666;
+}
 .nav_top_fx {
     margin: 0 auto;
     width: 88%;
@@ -2063,5 +2069,7 @@ p.copy-right a:hover {
     .banner_inner_con {
         min-height: 165px;
     }
+
+
 }
 /*--//responsive--*/
