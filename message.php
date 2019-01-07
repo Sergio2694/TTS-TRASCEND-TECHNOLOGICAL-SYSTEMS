@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-	<title>Conceit a Corporate Category Bootstrap Responsive Web Template | Single </title>
+	<title>Conceit a Corporate Category Bootstrap Responsive Web Template | Contact </title>
 	<!--/tags -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -21,7 +20,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<!--//tags -->
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="css/single.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/contact.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/font-awesome.css" rel="stylesheet">
 	<!-- //for bootstrap working -->
 	<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,300,300i,400,400i,500,500i,600,600i,700,800" rel="stylesheet">
@@ -41,49 +40,33 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<img src="images/logo 5.jpg" width="200">
 				</a>					
 			</div>
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
-					    aria-controls="navbar">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+				    aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!--
-					<div class="logo">
-						<h1> <a class="navbar-brand" href="index.html"><i class="fa fa-clone" aria-hidden="true"></i> TTS <span class="desc">Transcend Technological System</span></a></h1>
-					</div>
-			-->
-				</div>
-				<div id="navbar" class="navbar-collapse collapse">
-					<div class="nav_right_top">
-						
-						<!-- -->
-						<ul class="nav navbar-nav navbar-right">
-							<li><a class="request" href="message.php">Send Message</a></li>
-
-						</ul>
-						<ul class="nav navbar-nav">
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="portfolio.html">Services</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<!--
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li><a href="portfolio.html">Projects</a></li>
-									<li><a href="404.html">Services</a></li>
-
-
-								</ul>
-							</li>
-						-->
-						</ul>
-					</div>
-				</div>
-				<!--/.nav-collapse -->
+				
 			</div>
-		</nav>
+			<div id="navbar" class="navbar-collapse collapse">
+				<div class="nav_right_top">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a class="request" href="contact.html">Send Message</a></li>
+
+					</ul>
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="portfolio.html">Services</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						
+					</ul>
+				</div>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
 	</div>
 	<!--/banner_info-->
 	<div class="banner_inner_con">
@@ -93,101 +76,47 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			<ul class="short">
 				<li><a href="index.html">Home</a><span>|</span></li>
-				<li>Single</li>
+				<li>Send Us a Message</li>
 			</ul>
 		</div>
 	</div>
 	<!--//banner_info-->
 	<!-- /inner_content -->
-	<div class="banner_bottom">
+<div class="banner_bottom">
 		<div class="container">
-			<div class="col-md-9 technology-left">
-				<div class="business">
-					<div class=" blog-grid2">
-						<img src="images/banner2.jpg" class="img-responsive" alt="">
-						<div class="blog-text">
-							<br>
-							<h5>Best Business Thinking</h5>
-							<br>
-							<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas tristique orci ac sem.
-								Duis ultricies pharetra magna. Donec accumsan malesuada orci. Donec sit amet eros. Lorem ipsum dolor sit amet, con
-								sectetuer adipiscing elit. Mauris fermentum dictum magna. </p>
-							<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
-								form, by injected humour, or randomised words which don't look even slightly believable.</p>
-						</div>
-					</div>
+			
+			<div class="mail_form">
+				<h3 class="tittle">Send Us a Message</h3>
+				<div class="inner_sec_info">
+					<form action="bussiness/contact.php" method="post">
+						<span class="input input--chisato">
+						<input class="input__field input__field--chisato" name="Name" type="text" id="input-13" placeholder=" " required="" />
+						<label class="input__label input__label--chisato" for="input-13">
+							<span class="input__label-content input__label-content--chisato" data-content="Name">Name</span>
+						</label>
+						</span>
+						<span class="input input--chisato">
+						<input class="input__field input__field--chisato" name="Email" type="email" id="input-14" placeholder=" " required="" />
+						<label class="input__label input__label--chisato" for="input-14">
+							<span class="input__label-content input__label-content--chisato" data-content="Email">Email</span>
+						</label>
+						</span>
+						<span class="input input--chisato">
+						<input class="input__field input__field--chisato" name="Subject" type="text" id="input-15" placeholder=" " required="" />
+						<label class="input__label input__label--chisato" for="input-15">
+							<span class="input__label-content input__label-content--chisato" data-content="Subject">Subject</span>
+						</label>
+						</span>
+						<textarea name="Message" placeholder="Your comment here..." required=""></textarea>
+						<input type="submit" value="Submit">
+					</form>
+
 				</div>
 			</div>
-			<!-- technology-right -->
-			<div class="col-md-3 technology-right-1">
-				<div class="blo-top">
-					<div class="tech-btm">
-						<img src="images/banner1.jpg" class="img-responsive" alt="" />
-					</div>
-				</div>
-				
-				<div class="blo-top1">
-					<div class="tech-btm">
-						<h4>Top stories of the week </h4>
-						<div class="blog-grids">
-							<div class="blog-grid-left">
-								<a href="single.html"><img src="images/g6.jpg" class="img-responsive" alt=""/></a>
-							</div>
-							<div class="blog-grid-right">
-
-								<h5><a href="single.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="blog-grids">
-							<div class="blog-grid-left">
-								<a href="single.html"><img src="images/g7.jpg" class="img-responsive" alt=""/></a>
-							</div>
-							<div class="blog-grid-right">
-
-								<h5><a href="single.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="blog-grids">
-							<div class="blog-grid-left">
-								<a href="single.html"><img src="images/g3.jpg" class="img-responsive" alt=""/></a>
-							</div>
-							<div class="blog-grid-right">
-
-								<h5><a href="single.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="blog-grids">
-							<div class="blog-grid-left">
-								<a href="single.html"><img src="images/g5.jpg" class="img-responsive" alt=""/></a>
-							</div>
-							<div class="blog-grid-right">
-
-								<h5><a href="single.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-						<div class="blog-grids">
-							<div class="blog-grid-left">
-								<a href="single.html"><img src="images/g1.jpg" class="img-responsive" alt=""/></a>
-							</div>
-							<div class="blog-grid-right">
-
-								<h5><a href="single.html">Pellentesque dui, non felis. Maecenas male</a> </h5>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<div class="clearfix"></div>
 		</div>
 	</div>
 
-		<!-- footer -->
+	<!-- footer -->
 	<div class="footer">
 		<div class="footer_inner_info">
 			<div class="col-md-3 footer-left">
@@ -232,15 +161,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<div class="col-md-3 sign-gd flickr-post">
 						<h4>Our <span>Works</span></h4>
 						<ul>
-							<li><a href="portfolio.html"><img src="images/g1.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="portfolio.html"><img src="images/g2.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="portfolio.html"><img src="images/g3.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="portfolio.html"><img src="images/g4.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="portfolio.html"><img src="images/g5.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="portfolio.html"><img src="images/g6.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="portfolio.html"><img src="images/g7.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="portfolio.html"><img src="images/g8.jpg" alt=" " class="img-responsive" /></a></li>
-							<li><a href="portfolio.html"><img src="images/g4.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/g1.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/g2.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/g3.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/g4.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/g5.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/g6.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/g7.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/g8.jpg" alt=" " class="img-responsive" /></a></li>
+							<li><a href="single.html"><img src="images/g4.jpg" alt=" " class="img-responsive" /></a></li>
 						</ul>
 					</div>
 					<div class="col-md-5 sign-gd-two">
@@ -262,7 +191,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</div>
 								<div class="address-right">
 									<h6>Email Address</h6>
-									<p>Email :<a href=message.php> Trascendtechnologicalsystems2018@hotmail.com</a></p>
+									<p>Email :<a href="TRASCENDTECHNOLOGICALSYSTEMS2018@HOTMAIL.COM"> Trascendtechnologicalsystems2018@hotmail.com</a></p>
 								</div>
 								<div class="clearfix"> </div>
 							</div>
@@ -315,6 +244,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
 		});
 	</script>
+	<!-- password-script -->
+	<script type="text/javascript">
+		window.onload = function () {
+			document.getElementById("password1").onchange = validatePassword;
+			document.getElementById("password2").onchange = validatePassword;
+		}
+
+		function validatePassword() {
+			var pass2 = document.getElementById("password2").value;
+			var pass1 = document.getElementById("password1").value;
+			if (pass1 != pass2)
+				document.getElementById("password2").setCustomValidity("Passwords Don't Match");
+			else
+				document.getElementById("password2").setCustomValidity('');
+			//empty string means no validation error
+		}
+	</script>
+	<!-- //password-script -->
 	<script type="text/javascript">
 		$(document).ready(function () {
 			/*
@@ -336,6 +283,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<a href="#home" class="scroll" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 
 
+
 </body>
 
 </html>
+

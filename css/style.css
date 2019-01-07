@@ -501,13 +501,15 @@ p.sub_p {
 }
 
 .banner_inner_con {
-    background: url(../images/banner2.jpg) no-repeat 0px 0px;
+    background: url(../images/banner5.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     min-height: 300px;
 }
+
+
 
 .services-breadcrumb {
     padding: 1em 1em;
@@ -611,7 +613,7 @@ h3.tittle.cen {
 }
 
 .a2 {
-    background: url(../images/g1.jpg) no-repeat 0px 0px;
+    background: url(../images/cisa.png) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -621,7 +623,7 @@ h3.tittle.cen {
 }
 
 .a3 {
-    background: url(../images/banner2.jpg) no-repeat 0px 0px;
+    background: url(../images/mision.png) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -631,7 +633,7 @@ h3.tittle.cen {
 }
 
 .a5 {
-    background: url(../images/g5.jpg) no-repeat 0px 0px;
+    background: url(../images/awa.png) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -641,7 +643,7 @@ h3.tittle.cen {
 }
 
 .a6 {
-    background: url(../images/g8.jpg) no-repeat 0px 0px;
+    background: url(../images/tts.png) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1750,7 +1752,7 @@ p.copy-right a:hover {
         float: right;
         padding: 12px 10px;
         margin-top: 2px;
-        margin-right: 0px;
+        margin-right: 90px;
         margin-bottom: 8px;
         background-color: transparent;
         background-image: none;
